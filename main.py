@@ -18,7 +18,7 @@ async def play_handler(message: types.Message):
         [
             InlineKeyboardButton(
                 text="🎮 Play Bingo",
-                web_app=WebAppInfo(url="https://bing-lemon-seven.vercel.app/")
+                web_app=WebAppInfo(url="https://front-blond-kappa.vercel.app/
             )
         ]
     ])
@@ -136,3 +136,4 @@ async def main():
 
 if __name__ == "__main__":
     asyncio.run(main())
+
